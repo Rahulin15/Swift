@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B794CE2919405EBD0078C71C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B794CE2719405EBD0078C71C /* FirstViewController.swift */; };
+		B794CE2A19405EBD0078C71C /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B794CE2819405EBD0078C71C /* FirstViewController.xib */; };
 		B7AD133B19405B3F000E43DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AD133A19405B3F000E43DA /* AppDelegate.swift */; };
 		B7AD133E19405B3F000E43DA /* MyFirstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7AD133C19405B3F000E43DA /* MyFirstApp.xcdatamodeld */; };
 		B7AD134019405B3F000E43DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AD133F19405B3F000E43DA /* Images.xcassets */; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B794CE2719405EBD0078C71C /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B794CE2819405EBD0078C71C /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		B7AD133519405B3F000E43DA /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AD133919405B3F000E43DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7AD133A19405B3F000E43DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				B7AD133A19405B3F000E43DA /* AppDelegate.swift */,
+				B794CE2719405EBD0078C71C /* FirstViewController.swift */,
+				B794CE2819405EBD0078C71C /* FirstViewController.xib */,
 				B7AD133F19405B3F000E43DA /* Images.xcassets */,
 				B7AD133C19405B3F000E43DA /* MyFirstApp.xcdatamodeld */,
 				B7AD133819405B3F000E43DA /* Supporting Files */,
@@ -186,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7AD134019405B3F000E43DA /* Images.xcassets in Resources */,
+				B794CE2A19405EBD0078C71C /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B794CE2919405EBD0078C71C /* FirstViewController.swift in Sources */,
 				B7AD133E19405B3F000E43DA /* MyFirstApp.xcdatamodeld in Sources */,
 				B7AD133B19405B3F000E43DA /* AppDelegate.swift in Sources */,
 			);
@@ -381,6 +389,7 @@
 				B7AD135119405B3F000E43DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7AD135219405B3F000E43DA /* Build configuration list for PBXNativeTarget "MyFirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -389,6 +398,7 @@
 				B7AD135419405B3F000E43DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
